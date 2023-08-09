@@ -4,12 +4,12 @@
 
 1. **Open LibraryManager window**
     
-    ![1_LibraryManagerWindow.png](BroAudio%20Readme%209313b0d4dd9347e58d3fe3aee15e3a60/1_LibraryManagerWindow.png)
+    ![1_LibraryManagerWindow.png](BroAudio%20Readme%README/1_LibraryManagerWindow.png)
     
 2. **Create a library**
 click [+] to create a Library 
     
-    ![2_CreateLibrary.png](BroAudio%20Readme%209313b0d4dd9347e58d3fe3aee15e3a60/2_CreateLibrary.png)
+    ![2_CreateLibrary.png](BroAudio%20Readme%README/2_CreateLibrary.png)
     
 3. Choose an AudioType
     
