@@ -4,7 +4,7 @@
 
 1. **Open LibraryManager window**
     
-    ![1_LibraryManagerWindow.png](BroAudio%20Readme%README/1_LibraryManagerWindow.png)
+    ![1_LibraryManagerWindow.png](README/1_LibraryManagerWindow.png)
     
 2. **Create a library**
 click [+] to create a Library 
