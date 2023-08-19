@@ -58,14 +58,10 @@
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#getting-started">Quick Start</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
@@ -90,29 +86,24 @@ BroAudio is a sound management and playback tool for Unity. It is the only tool 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-<!-- GETTING STARTED -->
-## Getting Started
+<!-- Quick Start -->
+## Quick Start
 
 ### Creating sound libraries
 Locate <i>BroAudio</i> in the Unity menu bar and open <b><i>LibraryManager</i></b> to create your sound libraries. This process does not require writing any code.
 
-### Declaring an AudioID and use BroAudio.Play() with it
+### Declare an AudioID and use BroAudio.Play() to play it 
 ![BasicAPI][basic-API-screenshot]
 
-### Set the target audio that you've created in LibraryManager
+### Set the AudioID in the Inspector
 ![SetAudioID][set-audioid]
 
-### Done!
+### Hit the Unity play button and enjoy it !
+That's all you need to start using BroAudio. Of course, there are more than just this. Check out the documentation to fully unlock all the features of BroAudio.
 
-### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
 
-### Installation
+## Installation
 
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
@@ -143,7 +134,9 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 ## Why is this tool related to sound quality?
 <a name="sound-quality"></a>
-In fact, once a sound is recorded or produced, unless there are issues that need to be repaired (like noise, distortion, etc.), the quality of a normal audio cannot be objectively improved. However, reducing the quality of a sound is relatively easy and hard to avoid. This is why preserving the original quality as much as possible is a primary design consideration for BroAudio. This is not an easy task, as every stage of playback can have varying degrees of impact on the quality.
+In fact, once a sound is recorded or produced, unless there are issues that need to be repaired (like noise, distortion, etc.), the quality of a normal audio cannot be objectively improved. 
+
+However, reducing the quality of a sound is relatively easy and hard to avoid. This is why preserving the original quality as much as possible is a primary design consideration for BroAudio. This is not an easy task, as every stage of playback can have varying degrees of impact on the quality.
 
 | Issues | Solutions|
 | -- | -- | 
@@ -216,19 +209,3 @@ Project Link: [https://github.com/man572142/Bro_Audio](https://github.com/man572
 [product-screenshot]: https://raw.githubusercontent.com/man572142/MarkDownTest/main/LibraryManager_Shadow.png
 [basic-API-screenshot]: https://raw.githubusercontent.com/man572142/MarkDownTest/5860b913e1af0ea8bc3fbaad972b96df02eb3f8d/BasicAPI.svg
 [set-audioid]: https://raw.githubusercontent.com/man572142/MarkDownTest/main/AudioID.gif
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
