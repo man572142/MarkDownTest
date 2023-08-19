@@ -81,10 +81,11 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+BroAudio is a sound management and playback tool for Unity. It is the only tool that cares about [sound quality](/9313b0d4dd9347e58d3fe3aee15e3a60?pvs=25#27d9f369cd3e4062b6850c6c2fd9c1a5) and prioritizes developer user experience. You can build a massive audio system without the need to learn complex middleware software (like FMOD or WWise). Build and mange library with zero code. Play and control the audio with only one line of code.
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -132,7 +133,15 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Why is this tool related to sound quality?
+In fact, once a sound is recorded or produced, unless there are issues that need to be repaired (like noise, distortion, etc.), the quality of a normal audio cannot be objectively improved. Therefore, when we discuss the sound quality of a playback system, we are essentially talking about how to preserve its original quality as much as possible. This is not an easy task, as every stage of playing sound can have varying degrees of impact on the quality.
 
+### Possible factors that may affect audio quality include:
+
+ - Distortion caused by playing a large number of sounds simultaneously.
+ - Comb filtering / Haas effect.
+ - Unbalanced volume levels.
+ - Unnatural volume variations in Fade In and Fade Out transitions.
 
 <!-- ROADMAP -->
 ## Roadmap
