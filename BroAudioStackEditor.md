@@ -134,14 +134,17 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Why is this tool related to sound quality?
-In fact, once a sound is recorded or produced, unless there are issues that need to be repaired (like noise, distortion, etc.), the quality of a normal audio cannot be objectively improved. Therefore, when we discuss the sound quality of a playback system, we are essentially talking about how to preserve its original quality as much as possible. This is not an easy task, as every stage of playing sound can have varying degrees of impact on the quality.
+In fact, once a sound is recorded or produced, unless there are issues that need to be repaired (like noise, distortion, etc.), the quality of a normal audio cannot be objectively improved. However, reducing the quality of a sound is relatively easy and hard to avoid. This is why preserving the original quality as much as possible is a primary design consideration for BroAudio. This is not an easy task, as every stage of playback can have varying degrees of impact on the quality.
 
-### Possible factors that may affect audio quality include:
+| Issues | Solutions|
+| -- | -- | 
+| Distortion caused by playing multiple sounds simultaneously. | Well-designed mixer and auto-ducking on the master track |
+|Comb Filtering / Haas Effect|Preventing rapid repetition of the same sound (could be adjusted in /Setting )|
+|Unbalanced volume levels|Highly adaptable real-time volume control system|
+|Unnatural Fade In and Fade Out volume variations|Utilizing AudioMixer for volume control|
 
- - Distortion caused by playing a large number of sounds simultaneously.
- - Comb filtering / Haas effect.
- - Unbalanced volume levels.
- - Unnatural volume variations in Fade In and Fade Out transitions.
+ 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ROADMAP -->
 ## Roadmap
