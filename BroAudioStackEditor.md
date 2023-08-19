@@ -82,9 +82,23 @@
 BroAudio is a sound management and playback tool for Unity. It is the only tool that cares about <a href="#sound-quality">sound quality</a> and prioritizes developer user experience. You can build a massive audio system without the need to learn complex middleware software (like FMOD or WWise). Build and mange library with zero code. Play and control the audio with only one line of code.
 
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Features
+
+- Seamless Loop
+- Fade In/Out with multiple ease function
+- Cross Fade
+- Randomized (with weighted)
+- Sequencer
+- Visualized waveform and playback lines
+- Playing across multiple scenes
+- Clip Editor for permanent clip editing
+- Low Code Design
+- Customizable GUI settings
+- and more…
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Quick Start -->
 ## Quick Start
@@ -134,11 +148,12 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 ## Why is this tool related to sound quality?
 <a name="sound-quality"></a>
-In fact, once a sound is recorded or produced, unless there are issues that need to be repaired (like noise, distortion, etc.), the quality of a normal audio cannot be objectively improved. 
+Indeed, apart from issues like noise and distortion that need to be repaired, there is no objective method to enhance sound quality. However, a playback system still holds significant impact over the quality of sound. This is because the loss of sound quality is relatively easy to occur and hard to avoid. That's why BroAudio consistently prioritizes preserving the original sound quality as its primary design consideration.
 
-However, reducing the quality of a sound is relatively easy and hard to avoid. This is why preserving the original quality as much as possible is a primary design consideration for BroAudio. This is not an easy task, as every stage of playback can have varying degrees of impact on the quality.
 
-| Issues | Solutions|
+Here are some common issues listed along with how BroAudio addresses them:
+
+| Issues | Bro's Solutions|
 | -- | -- | 
 | Distortion caused by playing multiple sounds simultaneously. | Well-designed mixer and auto-ducking on the master track |
 |Comb Filtering / Haas Effect|Preventing rapid repetition of the same sound|
