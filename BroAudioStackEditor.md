@@ -34,6 +34,7 @@
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkLLebM2iyUEOjlEfGYApDzHgeyMvBneukFw&usqp=CAU" alt="Logo" width="128" height="128">
   </a>
 
+  <!-- PROJECT Title -->
 <h3 align="center">BroAudio</h3>
 
   <p align="center">A simple and intutive Audio Middleware for Unity
@@ -70,7 +71,6 @@
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -81,9 +81,9 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![Product Name Screen Shot][product-screenshot]
 
-BroAudio is a sound management and playback tool for Unity. It is the only tool that cares about <a href="#SoundQuality">sound quality</a> and prioritizes developer user experience. You can build a massive audio system without the need to learn complex middleware software (like FMOD or WWise). Build and mange library with zero code. Play and control the audio with only one line of code.
+BroAudio is a sound management and playback tool for Unity. It is the only tool that cares about <a href="#sound-quality">sound quality</a> and prioritizes developer user experience. You can build a massive audio system without the need to learn complex middleware software (like FMOD or WWise). Build and mange library with zero code. Play and control the audio with only one line of code.
 
 
 
@@ -93,8 +93,11 @@ BroAudio is a sound management and playback tool for Unity. It is the only tool 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+
+1. Open "BroAudio/LibraryManager" in the Unity menu bar to create your sound libraries. This process does not require writing any code.
+
+2. Play sound via script
+![BasicAPI][basic-API-screenshot]
 
 ### Prerequisites
 
@@ -134,7 +137,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Why is this tool related to sound quality?
-<a name="SoundQuality"></a>
+<a name="sound-quality"></a>
 In fact, once a sound is recorded or produced, unless there are issues that need to be repaired (like noise, distortion, etc.), the quality of a normal audio cannot be objectively improved. However, reducing the quality of a sound is relatively easy and hard to avoid. This is why preserving the original quality as much as possible is a primary design consideration for BroAudio. This is not an easy task, as every stage of playback can have varying degrees of impact on the quality.
 
 | Issues | Solutions|
@@ -158,25 +161,6 @@ In fact, once a sound is recorded or produced, unless there are issues that need
 See the [open issues](https://github.com/man572142/Bro_Audio/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- LICENSE -->
@@ -225,6 +209,7 @@ Project Link: [https://github.com/man572142/Bro_Audio](https://github.com/man572
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
 [product-screenshot]: https://raw.githubusercontent.com/man572142/MarkDownTest/main/LibraryManager_Shadow.png
+[basic-API-screenshot]: https://raw.githubusercontent.com/man572142/MarkDownTest/main/BasicAPI.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
