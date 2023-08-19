@@ -56,15 +56,9 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-    </li>
-    <li>
-      <a href="#getting-started">Quick Start</a>
-      <ul>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
+    <li><a href="#about-the-project">About The Project</a></li>
+    <li><a href="#quick-start">Quick Start</a></li>
+    <li><a href="#installation">Installation</a></li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#license">License</a></li>
@@ -146,8 +140,24 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Why is this tool related to sound quality?
+
+# Explanation
+
+## Library Manager
+
+### Asset
+### Library
+
+## Clip Editor
+
+## Setting
+
+
+
 <a name="sound-quality"></a>
+
+## Why is this tool related to sound quality?
+
 Indeed, apart from issues like noise and distortion that need to be repaired, there is no objective method to enhance sound quality. However, a playback system still holds significant impact over the quality of sound. This is because the loss of sound quality is relatively easy to occur and hard to avoid. That's why BroAudio consistently prioritizes preserving the original sound quality as its primary design consideration.
 
 
