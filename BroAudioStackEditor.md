@@ -83,7 +83,7 @@
 ## About The Project
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-BroAudio is a sound management and playback tool for Unity. It is the only tool that cares about [sound quality](/9313b0d4dd9347e58d3fe3aee15e3a60?pvs=25#27d9f369cd3e4062b6850c6c2fd9c1a5) and prioritizes developer user experience. You can build a massive audio system without the need to learn complex middleware software (like FMOD or WWise). Build and mange library with zero code. Play and control the audio with only one line of code.
+BroAudio is a sound management and playback tool for Unity. It is the only tool that cares about <a href="#SoundQuality">sound quality</a> and prioritizes developer user experience. You can build a massive audio system without the need to learn complex middleware software (like FMOD or WWise). Build and mange library with zero code. Play and control the audio with only one line of code.
 
 
 
@@ -134,14 +134,15 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Why is this tool related to sound quality?
+<a name="SoundQuality"></a>
 In fact, once a sound is recorded or produced, unless there are issues that need to be repaired (like noise, distortion, etc.), the quality of a normal audio cannot be objectively improved. However, reducing the quality of a sound is relatively easy and hard to avoid. This is why preserving the original quality as much as possible is a primary design consideration for BroAudio. This is not an easy task, as every stage of playback can have varying degrees of impact on the quality.
 
 | Issues | Solutions|
 | -- | -- | 
 | Distortion caused by playing multiple sounds simultaneously. | Well-designed mixer and auto-ducking on the master track |
-|Comb Filtering / Haas Effect|Preventing rapid repetition of the same sound (could be adjusted in /Setting )|
+|Comb Filtering / Haas Effect|Preventing rapid repetition of the same sound|
 |Unbalanced volume levels|Highly adaptable real-time volume control system|
-|Unnatural Fade In and Fade Out volume variations|Utilizing AudioMixer for volume control|
+|Unnatural volume changes in Fade In, Fade Out and CrossFade|Utilizing AudioMixer for volume control|
 
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
