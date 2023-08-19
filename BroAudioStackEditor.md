@@ -1,31 +1,11 @@
-﻿<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
-<a name="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
+﻿<a name="readme-top"></a>
 
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-
-
 
 <!-- PROJECT LOGO -->
 <br />
@@ -73,21 +53,24 @@
 ## About The Project
 ![Product Name Screen Shot][product-screenshot]
 
-BroAudio is a sound management and playback tool for Unity. It is the only tool that cares about <a href="#sound-quality">sound quality</a> and prioritizes developer user experience. You can build a massive audio system without the need to learn complex middleware software (like FMOD or WWise). Build and mange library with zero code. Play and control the audio with only one line of code.
+
+BroAudio is a sound management and playback tool designed for Unity. It's unique in its focus on <a href="#sound-quality">sound quality</a> and a developer-friendly experience. You can create extensive and captivating audio systems without the need for mastering complex middleware like FMOD or Wwise. Whether you're part of a large team or a solo developer, achieving the goals becomes effortless and efficient with BroAudio.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Features
 
-- Seamless Loop
 - Fade In/Out with multiple ease function
 - Cross Fade
-- Randomized (with weighted)
-- Sequencer
+- Seamless Loop
+- Random Playback (with weight)
+- Sequential Playback
+- Clip Editor for permanent clip editing
+- Dynamic audio effect
+- Enhanced Volume Control Range (up to +20dB)
 - Visualized waveform and playback lines
 - Playing across multiple scenes
-- Clip Editor for permanent clip editing
 - Low Code Design
 - Customizable GUI settings
 - and more…
@@ -228,9 +211,9 @@ Project Link: [https://github.com/man572142/Bro_Audio](https://github.com/man572
 [issues-shield]: https://img.shields.io/github/issues/man572142/Bro_Audio.svg?style=for-the-badge
 [issues-url]: https://github.com/man572142/Bro_Audio/issues
 [license-shield]: https://img.shields.io/github/license/man572142/Bro_Audio.svg?style=for-the-badge
-[license-url]: https://github.com/man572142/Bro_Audio/blob/master/LICENSE.txt
+[license-url]: https://github.com/man572142/Bro_Audio/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://linkedin.com/in/哲祥-翁-577109225
 [product-screenshot]: https://raw.githubusercontent.com/man572142/MarkDownTest/main/LibraryManager_Shadow.png
 [basic-API-screenshot]: https://raw.githubusercontent.com/man572142/MarkDownTest/5860b913e1af0ea8bc3fbaad972b96df02eb3f8d/BasicAPI.svg
 [set-audioid]: https://raw.githubusercontent.com/man572142/MarkDownTest/main/AudioID.gif
