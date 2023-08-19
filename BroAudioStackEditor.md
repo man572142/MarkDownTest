@@ -93,11 +93,16 @@ BroAudio is a sound management and playback tool for Unity. It is the only tool 
 <!-- GETTING STARTED -->
 ## Getting Started
 
+### Creating sound libraries
+Locate <i>BroAudio</i> in the Unity menu bar and open <b><i>LibraryManager</i></b> to create your sound libraries. This process does not require writing any code.
 
-1. Open "BroAudio/LibraryManager" in the Unity menu bar to create your sound libraries. This process does not require writing any code.
-
-2. Play sound via script
+### Declaring an AudioID and use BroAudio.Play() with it
 ![BasicAPI][basic-API-screenshot]
+
+### Set the target audio that you've created in LibraryManager
+![SetAudioID][set-audioid]
+
+### Done!
 
 ### Prerequisites
 
@@ -210,6 +215,7 @@ Project Link: [https://github.com/man572142/Bro_Audio](https://github.com/man572
 [linkedin-url]: https://linkedin.com/in/linkedin_username
 [product-screenshot]: https://raw.githubusercontent.com/man572142/MarkDownTest/main/LibraryManager_Shadow.png
 [basic-API-screenshot]: https://raw.githubusercontent.com/man572142/MarkDownTest/5860b913e1af0ea8bc3fbaad972b96df02eb3f8d/BasicAPI.svg
+[set-audioid]: https://raw.githubusercontent.com/man572142/MarkDownTest/main/AudioID.gif
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
