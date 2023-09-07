@@ -54,7 +54,7 @@
 ![Product Name Screen Shot][product-screenshot]
 
 
-BroAudio is a sound management and playback tool designed for Unity. It's unique in its focus on <a href="#sound-quality">sound quality</a> and a developer-friendly experience. You can create extensive and captivating audio systems without the need for mastering complex middleware like FMOD or Wwise. Whether you're part of a large team or a solo developer, achieving the goals becomes effortless and efficient with BroAudio.
+BroAudio is a sound management and playback tool designed for Unity. It's unique in its focus on <a href="#sound-quality">sound quality</a> and a <a href="#developer-friendly">developer-friendly</a> experience. You can create extensive and captivating audio systems without the need for mastering complex middleware like FMOD or Wwise. Whether you're part of a large team or a solo developer, achieving the goals becomes effortless and efficient with BroAudio.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -81,20 +81,23 @@ BroAudio is a sound management and playback tool designed for Unity. It's unique
 ## Quick Start
 
 ### Creating sound libraries
-Locate <i>BroAudio</i> in the Unity menu bar and open <b><i>LibraryManager</i></b> to create your sound libraries. This process does not require writing any code.
+Locate <i>BroAudio/LibraryManager</i> in the Unity menu bar. Open it and try to create an Asset and a Library. This process doesn't involve any coding and the GUI works like a regular list you're familiar with.
 
 ### Declare an AudioID and use BroAudio.Play() to play it 
 ![BasicAPI][basic-API-screenshot]
 
 ### Set the AudioID in the Inspector
+The AudioID is what you've created in <b>LibraryManager</b>
 ![SetAudioID][set-audioid]
 
 ### Hit the Unity play button and enjoy it !
 That's all you need to start using BroAudio. Of course, there are more than just this. Check out the documentation to fully unlock all the features of BroAudio.
 
 
-
+<!--
 ## Installation
+1. Install from Unity Asset Store 
+
 
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
@@ -111,17 +114,7 @@ That's all you need to start using BroAudio. Of course, there are more than just
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+-->
 
 
 # Explanation
@@ -129,13 +122,20 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 ## Library Manager
 
 ### Asset
+A ScriptableObject that contains a group of libraries and their informations.
 ### Library
+Represent a sound associated with an AudioID that can be played. It can store many clips and their settings about how they would behave.
 
 ## Clip Editor
+Let you edit an audio clip and save it permanently in Unity.
 
-## Setting
+<a name="developer-friendly"></a>
+## What does Developer-Friendly mean in this tool?
+BroAudio aims to minimize the amount of "information overload" presented to developers. This means that by default, you will only see a few commonly used features, while other functions dynamically appear in the UI interface as you interact. You won't be overwhelmed by a large number of rarely used, or even completely unfamiliar settings and parameters. 
 
+What's even better is that BroAudio allows you to customize the UI interface. You can set and select the parameters you want to display in BroAudio/Settings.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <a name="sound-quality"></a>
 
