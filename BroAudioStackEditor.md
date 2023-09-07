@@ -88,6 +88,7 @@ Locate <i>BroAudio/LibraryManager</i> in the Unity menu bar. Open it and try to 
 
 ### Set the AudioID in the Inspector
 The AudioID is what you've created in <b>LibraryManager</b>
+
 ![SetAudioID][set-audioid]
 
 ### Hit the Unity play button and enjoy it !
@@ -118,7 +119,7 @@ That's all you need to start using BroAudio. Of course, there are more than just
 
 
 # Explanation
-
+<!--
 ## Library Manager
 
 ### Asset
@@ -128,10 +129,10 @@ Represent a sound associated with an AudioID that can be played. It can store ma
 
 ## Clip Editor
 Let you edit an audio clip and save it permanently in Unity.
-
+-->
 <a name="developer-friendly"></a>
 ## What does Developer-Friendly mean in this tool?
-BroAudio aims to minimize the amount of "information overload" presented to developers. This means that by default, you will only see a few commonly used features, while other functions dynamically appear in the UI interface as you interact. You won't be overwhelmed by a large number of rarely used, or even completely unfamiliar settings and parameters. 
+BroAudio aims to minimize the amount of information presented to developers. This means that by default, you will only see a few commonly used features, while other functions dynamically appear in the UI interface as you interact. You won't be overwhelmed by a large number of rarely used, or even completely unfamiliar settings and parameters. 
 
 What's even better is that BroAudio allows you to customize the UI interface. You can set and select the parameters you want to display in BroAudio/Settings.
 
