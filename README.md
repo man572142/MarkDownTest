@@ -69,10 +69,9 @@ BroAudio is a sound management and playback tool designed for Unity. It's unique
 - Clip Editor for permanent clip editing
 - Dynamic audio effect
 - Enhanced Volume Control Range (up to +20dB)
-- Visualized waveform and playback lines
-- Playing across multiple scenes
-- Low Code Design
 - Customizable GUI settings
+- Visualized waveform and playback lines
+- Low Code Design
 - and more…
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -81,7 +80,7 @@ BroAudio is a sound management and playback tool designed for Unity. It's unique
 ## Quick Start
 
 ### Creating sound libraries
-Locate <i>BroAudio/LibraryManager</i> in the Unity menu bar. Open it and try to create an Asset and a Library. This process doesn't involve any coding and the GUI works like a regular list you're familiar with.
+Locate <b><i>BroAudio/LibraryManager</i></b> in the Unity menu bar. Open it and try to create an Asset and a Library. This process doesn't involve any coding and the GUI works like a regular list you're familiar with.
 
 ### Declare an AudioID and use BroAudio.Play() to play it 
 ![BasicAPI][basic-API-screenshot]
@@ -160,10 +159,11 @@ Here are some common issues listed along with how BroAudio addresses them:
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [ ] Add AnimationCurve settings for fade In/Out
+- [ ] Allow multiple Invader working together
+- [ ] Performance Improvement
+    - [ ]  Add AudioClipLoadType settings
+    - [ ]  Improve asset loading mechanic
 
 See the [open issues](https://github.com/man572142/Bro_Audio/issues) for a full list of proposed features (and known issues).
 
@@ -173,7 +173,7 @@ See the [open issues](https://github.com/man572142/Bro_Audio/issues) for a full 
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License. See `LICENSE` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -192,10 +192,15 @@ Project Link: [https://github.com/man572142/Bro_Audio](https://github.com/man572
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
+These blogs and articles have been a great source of help and inspiration for BroAudio.
 
-* []()
-* []()
-* []()
+* []()[Game Dev Beginner](https://gamedevbeginner.com/)
+* []()[What is Adaptive Audio?](https://youtu.be/p-FLWabby4Y?si=v1oABcEIx_o7xfUe)
+* []()[THE BASICS ABOUT COMB FILTERING (AND HOW TO AVOID IT)](https://www.dpamicrophones.com/mic-university/the-basics-about-comb-filtering-and-how-to-avoid-it)
+* []()[Blog | Audiokinetic](https://blog.audiokinetic.com/)
+* []()[FMOD Blog](https://www.fmod.com/blog)
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
