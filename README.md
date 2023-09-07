@@ -38,8 +38,6 @@
   <ol>
     <li><a href="#about-the-project">About The Project</a></li>
     <li><a href="#quick-start">Quick Start</a></li>
-    <li><a href="#installation">Installation</a></li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -93,6 +91,7 @@ The AudioID is what you've created in <b>LibraryManager</b>
 ### Hit the Unity play button and enjoy it !
 That's all you need to start using BroAudio. Of course, there are more than just this. Check out the documentation to fully unlock all the features of BroAudio.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!--
 ## Installation
@@ -133,7 +132,7 @@ Let you edit an audio clip and save it permanently in Unity.
 ## What does Developer-Friendly mean in this tool?
 BroAudio aims to minimize the amount of information presented to developers. This means that by default, you will only see a few commonly used features, while other functions dynamically appear in the UI interface as you interact. You won't be overwhelmed by a large number of rarely used, or even completely unfamiliar settings and parameters. 
 
-What's even better is that BroAudio allows you to customize the UI interface. You can set and select the parameters you want to display in BroAudio/Settings.
+What's even better is that BroAudio allows you to customize the GUI layout. You can set and select the parameters you want to display in <b><i>BroAudio/Settings</i></b>.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
